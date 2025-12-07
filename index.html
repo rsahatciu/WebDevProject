@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Recipes - Holiday Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Holiday Kitchen</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Recipes</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-decorations">
+            <div class="decoration-circle decoration-1"></div>
+            <div class="decoration-circle decoration-2"></div>
+            <div class="decoration-circle decoration-3"></div>
+            <div class="decoration-shape decoration-4"></div>
+            <div class="decoration-shape decoration-5"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">🎄 Holiday Special</div>
+            <h1 class="hero-title">Christmas Recipes</h1>
+            <p class="hero-subtitle">Delightful holiday dishes to warm your heart and bring joy to your table</p>
+            <div class="hero-cta">
+                <a href="#recipes" class="cta-button">Explore Recipes</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="recipes" class="recipes-grid">
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #c41e3a 0%, #8b1538 100%);">
+                    <span class="recipe-icon">🎄</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Classic Gingerbread Cookies</h2>
+                    <p class="recipe-description">Traditional spiced cookies perfect for decorating with the family.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 45 min</span>
+                        <span class="detail-item">👥 24 cookies</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('gingerbread')">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #d4a574 0%, #8b6f47 100%);">
+                    <span class="recipe-icon">🍪</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Peppermint Hot Chocolate</h2>
+                    <p class="recipe-description">Rich and creamy hot chocolate with a refreshing peppermint twist.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 15 min</span>
+                        <span class="detail-item">👥 4 servings</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('hotchocolate')">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #ff6b6b 0%, #c92a2a 100%);">
+                    <span class="recipe-icon">🎅</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Roasted Turkey with Herbs</h2>
+                    <p class="recipe-description">Juicy turkey roasted to perfection with aromatic herbs and spices.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 3 hours</span>
+                        <span class="detail-item">👥 8 servings</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('turkey')">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #ffd93d 0%, #f6c23e 100%);">
+                    <span class="recipe-icon">🌟</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Eggnog Cheesecake</h2>
+                    <p class="recipe-description">Creamy cheesecake infused with the classic flavors of eggnog.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 4 hours</span>
+                        <span class="detail-item">👥 12 servings</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('cheesecake')">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #51cf66 0%, #2f9e44 100%);">
+                    <span class="recipe-icon">🎁</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Honey Glazed Ham</h2>
+                    <p class="recipe-description">Succulent ham glazed with honey and brown sugar, perfect for the holiday table.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 2.5 hours</span>
+                        <span class="detail-item">👥 10 servings</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('ham')">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #ff8787 0%, #e03131 100%);">
+                    <span class="recipe-icon">❄️</span>
+                </div>
+                <div class="recipe-content">
+                    <h2>Christmas Sugar Cookies</h2>
+                    <p class="recipe-description">Buttery sugar cookies cut into festive shapes and decorated with icing.</p>
+                    <div class="recipe-details">
+                        <span class="detail-item">⏱️ 1 hour</span>
+                        <span class="detail-item">👥 36 cookies</span>
+                    </div>
+                    <button class="recipe-btn" onclick="showRecipe('sugarcookies')">View Recipe</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Team Section - Update href="#" with portfolio links for each team member -->
+    <section class="team-section">
+        <div class="container">
+            <div class="team-header">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-subtitle">Meet the creators behind Holiday Kitchen</p>
+            </div>
+            <div class="team-grid">
+                <a href="#" class="team-member" target="_blank">
+                    <div class="team-avatar">
+                        <span class="avatar-initial">KS</span>
+                    </div>
+                    <h3 class="team-name">Karatapani Stamatia Christina</h3>
+                    <p class="team-role">Team Member</p>
+                </a>
+                <a href="#" class="team-member" target="_blank">
+                    <div class="team-avatar">
+                        <span class="avatar-initial">SA</span>
+                    </div>
+                    <h3 class="team-name">Sideri Aikaterini</h3>
+                    <p class="team-role">Team Member</p>
+                </a>
+                <a href="#" class="team-member" target="_blank">
+                    <div class="team-avatar">
+                        <span class="avatar-initial">XK</span>
+                    </div>
+                    <h3 class="team-name">Xanthopoylos Konstantinos</h3>
+                    <p class="team-role">Team Member</p>
+                </a>
+                <a href="#" class="team-member" target="_blank">
+                    <div class="team-avatar">
+                        <span class="avatar-initial">AE</span>
+                    </div>
+                    <h3 class="team-name">Athanasiadou Eleni Anna</h3>
+                    <p class="team-role">Team Member</p>
+                </a>
+                <a href="#" class="team-member" target="_blank">
+                    <div class="team-avatar">
+                        <span class="avatar-initial">SR</span>
+                    </div>
+                    <h3 class="team-name">Sahatciu Robert</h3>
+                    <p class="team-role">Team Member</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Holiday Kitchen. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
