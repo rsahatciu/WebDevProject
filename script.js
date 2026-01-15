@@ -158,6 +158,73 @@ const recipes = {
             "Place on baking sheets and bake for 8-10 minutes until edges are golden.",
             "Cool completely before decorating with royal icing."
         ]
+    },
+      mincepies: {
+        title: "Mince pies",
+        description: "A delicious British Christmas tradition",
+        ingredients: [
+            "1 ¾ cups all-purpose flour",
+            "1/2 cup confectioners' sugar, divided",
+            "2 teaspoons ground cinnamon",
+            "2/3 cup butter, softened",
+            "2 tablespoons grated orange zest",
+            "1/4 cup ice water",
+            "3/4 cup prepared mincemeat pie filling",
+            "1 large egg, beaten"
+        ],
+        instructions: [
+            "Preheat the oven to 400 degrees F (200 degrees C).",
+            "Sift flour, 1/4 cup confectioners' sugar, and cinnamon together in a large bowl. Use a pastry cutter or two forks to mix in butter until mixture resembles fine crumbs. Stir in orange zest. Sprinkle with ice water and gather dough into a ball. Roll out on a lightly floured surface to 1/4 inch thick. Cut out approximately 18 (3-inch) diameter circles, and 18 (2-inch) circles, re-rolling dough as needed.",
+            "Line muffin cups or mini tart tins using the 3-inch pastry circles. Fill each pastry cup with about 1 tablespoon of mincemeat filling. Top with 2-inch pastry circles, sealing edges firmly together or crimping lightly with a fork to prevent the filling from leaking as they cook. Brush the top of each pie with egg.",
+            "Bake mince pies in preheated oven until tops are golden brown, 15 to 20 minutes. Cool slightly on wire racks. Dust with remaining 1/4 cup confectioners' sugar just before serving."
+        ]
+    },
+      cinnamonrolls: {
+        title: "Cinnamon rolls",
+        description: "Soft and fluffy with a sweet, gooey glaze on top",
+        ingredients: [
+            "250 g whole milk, room temperature",
+            "10 g dry yeast",
+            "150 g granulated sugar",
+            "180 g butter, room temperature + extra for the pan",
+            "700 g bread flour + extra for the bowl and dough opening",
+            "1 pinch of salt",
+            "2 medium sized eggs",
+            "lemon zest",
+            "150 g brown sugar",
+            "20 g cinnamon",
+            "100 g powdered sugar",
+            "5-10 g lemon juice"
+
+             ],
+             instructions: [
+               "For the dough: ",
+                "Pour the milk, yeast and sugar into the mixer bowl, and mix with a hand whisk. ",
+                "Add the butter, flour, salt, eggs and lemon zest, and beat with the hook on high speed for 8-10 minutes until a sticky dough is created",
+                "Pour some flour into a bowl and into our hands, shape the dough into a round shape and put it in the bowl. ",
+                "Cover with transparent film and leave at room temperature to rise for about 1 hour or until doubled in volume. (The final waiting time depends on how hot the space is.) ",
+                "Sprinkle the workbench with flour and transfer the dough on top. ",
+                "Sprinkle the dough with flour and roll it out with a rolling pin in a rectangular shape measuring 40x60 cm. ",
+               
+                "For the filling: ",
+                "Pour the sugar, cinnamon and butter into a bowl, and mix well with a spoon until it becomes a paste. ",
+                
+                "For the composition: ",
+                "Preheat the oven to 180°C in the air. ",
+                "Brush a 30 cm diameter round with butter and set aside. ",
+                "Spread the paste with the back of the spoon over the entire surface of the dough and roll starting from the long side. ",
+                "Cut the roll into 16 equal pieces and transfer them to the pan with the cut side down. ",
+                "We gently press with your hands so that they are all the same height. ",
+                "Cover with a towel and leave for about 30 minutes or until they double in volume. ",
+                "Transfer the pan to the oven and bake for 30 minutes. ",
+                "Remove from the oven and set aside to cool. ",
+
+                "For the icing: ",
+                "Pour the powdered sugar into a bowl and add a few drops of the lemon juice. ",
+                "Mix with a spoon and add lemon juice until you have a thick glaze. ",
+                "Pour over the cinnamon rolls with the glaze and serve."
+     
+             ]
     }
 };
 
