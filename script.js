@@ -245,7 +245,7 @@ const recipes = {
      
              ]
     },
-
+// Karatapani Stamatia
                raspchoctart: {
                    title: "Raspberry chocolate mouse tart",
                    description: "A vegan dessert, filled with a layer of tart raspberry gel and topped with luscious chocolate and tofu mousse",
@@ -562,7 +562,7 @@ wreathcakes: {
             "After 1 hour, use an electric whisk to whisk the chocolate for around 10 seconds. This will add some air into it and make it fluffy. Be careful not to overdo it or it will become too firm to pipe.",
             "Transfer the ganache to a piping bag with a large star nozzle. Pipe the ganache in lines over the yule log until it’s completely covered."
             ]
-    },
+    }, //Athanasiadou Eleni Anna
     chocgingerbreadcakes: {
         title: "Chocolate Gingerbread Mini Cakes (vegan & gluten-free)",
         description: "Chocolate Gingerbread Mini Cakes Recipe. Beautiful festive gluten-free vegan moist gingerbread chocolate mini cakes with luscious chocolate ganache.",
@@ -671,7 +671,7 @@ wreathcakes: {
             "1-2 hours before serving, decorate your cake with gingerbread cookies or as desired. If you have any leftover buttercream, use it to keep your decorations in place.",
             "Store leftover cake in an airtight container at room temperature for 1 day, in the fridge for up to 3 days, or in the freezer for up to 1 month. Allow the cake to come to room temperature before serving"
             ]
-    },
+    },//Xanthopoulos Konstantinos
      porkleg: {
          title: "Pierna mechada (Mexican roast pork leg)",
          description: "In Mexico, Navidad (Christmas) is celebrated with a big dinner at home. This pork dish is super popular during Christmas celebrations.",
@@ -832,7 +832,7 @@ wreathcakes: {
             "Gently glaze the kolach with the beaten yolk and milk mixture, ensuring it’s thoroughly covered, then sprinkle liberally with poppy seeds. Put the kolach on the middle shelf of the oven and bake for 30 minutes, then turn the tray around 180 degrees to ensure an even bake and cook for another 10 minutes. The poppy seeds will make the kolach look quite dark but don’t worry – it will be delicious.",
             "Remove the tray and let the kolach rest for at least 15 minutes to 1 hour. Lift the mould out from the centre and transfer the kolach to a serving plate. Serve sliced with salted butter and a cup of coffee or tea. It’s also amazing toasted for breakfast the next morning or served with cheese."
             ]
-    },
+    }, //Sideri Aikaterini
      roastedchicken: {
         title: "Honey-Glazed Roasted Chicken",
          description: " A classic delicious festive recipe",
@@ -907,7 +907,7 @@ wreathcakes: {
             "Once cooled, roll cookies in the confectioners' sugar once more."
 
 
-        ]
+        ]  //Xanthopoulos Konstantinos
     }
 
 
@@ -977,3 +977,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//Sahatciu Robert
