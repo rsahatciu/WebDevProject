@@ -76,7 +76,7 @@ const recipes = {
             "Place the turkey in a roasting pan and bake for 45 minutes. Reduce the oven temperature to 350 degrees F and continue roasting, basting the turkey every 30 minutes with the chicken broth, until the turkey is done. This will take approximately 3 hours and you'll know that the turkey is done when a meat thermometer inserted into the thickest part of the turkey thigh registers 165 degrees F.",
             "If the turkey seems like it's getting overly browned during the cooking process, cover it with foil.",
             "Remove the turkey from the oven and tent loosely with foil. Let the turkey rest for 25 minutes. Slice, then serve."
-        
+        ]
     },
     cheesecake: {
         title: "Eggnog Cheesecake",
@@ -271,7 +271,7 @@ const recipes = {
                        "To serve: ",
                        "Fresh berries to garnish"
                    ],
-                   Instructions: [
+                   instructions: [
                        "To make the pastry case, pulse flour, 75 g coconut oil, icing sugar and salt together in a food processor, until it has a crumbly texture. Add ice cold water a little at a time until the mixture starts to come together. I find 5 tablespoon to be about right, but this may vary a little.",
                        "Tip the pastry out onto a clean benchtop and use your hands to bring the mixture together into a ball, without kneading. Flour the surface and roll out to about 5 mm thick. Line the bottom of a 22 cm springform tart tin. Gently press pastry into the tart tin and trim the edges. Refrigerate for 20 minutes until firm. While the pastry is chilling, preheat oven to 200°C fan bake (or 220°C/430°F conventional oven). ",
                        "Line the pastry case with baking paper and blind baking weights. Bake for 20 minutes, then remove the weights and baking paper and bake for another 10 minutes, or until golden brown. Set aside to cool. Melt a little extra coconut oil (about 1 tbsp) and brush to coat the inside of the pastry case, to form a waterproof coating. ",
@@ -300,7 +300,7 @@ const recipes = {
 
                          "For the vanilla cheesecake filling layers: ",
                          "½ cup cashews (soaked for 2-4 hours)",
-                         "500 g soft tofu drained (approx. 1.1lb):,
+                         "500 g soft tofu drained (approx. 1.1lb)",
                          "½ cup coconut oil (melted if solid)",
                          "¼ cup maple syrup",
                          "¼ cup lemon juice freshly squeezed",
@@ -355,14 +355,14 @@ const recipes = {
                               description:"A sausage roll filled with a beautiful mixture of earthy mushrooms and smoky tofu",
                               ingredients: [
                                   "250 g / 9 oz chestnut / baby bella mushrooms",
-                                  "225 g / 8 oz smoked firm cotton tofu* OR 175 g / 1 packed cup cooked brown rice",
+                                  "225 g / 8 oz smoked firm cotton tofu OR 175 g / 1 packed cup cooked brown rice",
                                   "250 g / 9 oz chestnut / baby bella mushrooms",
                                   "2 large shallots, finely diced",
                                   "3 garlic cloves, finely diced",
                                   "8 fresh sage leaves, finely chopped",
                                   "4 thyme springs, leaves picked",
                                   "4 tsp vegan Worcester sauce",
-                                  "1 tbsp soy sauce / tamari (for GF version)",
+                                  "1 tbsp soy sauce / tamari",
                                   "¼-1/3 tsp salt, adjust to taste",
                                   "generous grind of black pepper",
                                   "2 tbsp nutritional yeast",
@@ -374,7 +374,7 @@ const recipes = {
                                   "vegan egg wash: 2 tsp plant milk, 1 tsp olive oil + 1 tsp maple syrup or sugar",
                                   "2 tsp sesame or / and poppy seeds, to decorate",
 
-                                  "MUSHROOM MISO GRAVY (optional) : ",
+                                  "Mushroom Miso Gravy(optional) : ",
 
                                   "20 g / 0.7 oz dry mushrooms (I used a mixture of porcini and shiitake), well rinsed",
                                   "2 tbsp olive oil",
@@ -525,7 +525,7 @@ wreathcakes: {
         description: "This chocolate vegan yule log is a real show-stopping Christmas dessert! It consists of a rolled chocolate sponge cake filled with vanilla buttercream and coated with creamy chocolate ganache.",
         ingredients: [
             "200 g Self-raising flour", 
-            "1 Tabespoon Unsweetened cocoa powder", 
+            "1 Tablespoon Unsweetened cocoa powder", 
             "¼ Teaspoon Baking soda (bicarbonate of soda)", 
             "⅛ Teaspoon Xanthan gum (it's very important to measure this accurately so I recommend using a measuring spoon if you can)", 
             "115 g Caster/superfine sugar",
@@ -534,7 +534,7 @@ wreathcakes: {
             "2 Teaspoons Vanilla extract",
 
             "For the vanilla buttercream filling: ",
-            "80 g Vegan margarine or butter 
+            "80 g Vegan margarine or butter",
             "200 g Icing/powdered sugar", 
             "1 Tablespoon Soy milk",
             "2 Teaspoons Vanilla extract", 
@@ -565,9 +565,9 @@ wreathcakes: {
     },
     chocgingerbreadcakes: {
         title: "Chocolate Gingerbread Mini Cakes (vegan & gluten-free)",
-        description: "hocolate Gingerbread Mini Cakes Recipe. Beautiful festive gluten-free vegan moist gingerbread chocolate mini cakes with luscious chocolate ganache.",
+        description: "Chocolate Gingerbread Mini Cakes Recipe. Beautiful festive gluten-free vegan moist gingerbread chocolate mini cakes with luscious chocolate ganache.",
         ingredients: [
-            "3/4 cup brown rice flour (95 grams) 
+            "3/4 cup brown rice flour (95 grams)",
             "1/2 cup buckwheat flour (70 grams)", 
             "1/2 cup sunflower seeds (70 grams), ground into flour consistency", 
             "1/4 cup tapioca flour (30 grams) ",
@@ -742,7 +742,7 @@ wreathcakes: {
      },
        janssonstemptation: {
            title: "Jansson’s temptation",
-           description: "ansson’s temptation (Jansson’s frestelse), a classic Swedish potato dish traditionally made with cream and ansjovis (cured sprats). The perfect festive side dish.",
+           description: "Jansson’s temptation (Jansson’s frestelse), a classic Swedish potato dish traditionally made with cream and ansjovis (cured sprats). The perfect festive side dish.",
            ingredients: [
                "1kg potatoes",
                "75g unsalted butter",
@@ -888,7 +888,7 @@ wreathcakes: {
         title: "Chocolate Snowball Cookies",
         description: "Soft, buttery treats that melt in your mouth.",
         ingredients: [
-            "1 cup unsalted butter, softened
+            "1 cup unsalted butter, softened",
             "½ cup confectioners' sugar",
             "1 teaspoon vanilla extract",
             "2 ¼ cups all-purpose flour",
